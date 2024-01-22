@@ -1,0 +1,21 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --browser chrome --headed --env includeTests=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-multi-reporters": "^1.6.3",
+    "cypress-parallel": "^0.13.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "supportFile": "cypress/support/e2e.js",
+  "chromeWebSecurity": false,
+  "browser": "chrome"
+}
